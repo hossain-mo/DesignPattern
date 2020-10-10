@@ -1,0 +1,21 @@
+{
+    "name": "hossain_mo/design_patterns",
+    "description": "This package holds the implementation of design patterns according to GO4 book",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "hossain-mo",
+        "email": "hossainfcih@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    },
+    "require": {
+      "ext-mbstring": "*",
+      "ext-json": "*"
+    }
+  }
